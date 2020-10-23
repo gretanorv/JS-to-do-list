@@ -1,0 +1,115 @@
+body {
+    align-items: center;
+    background-color: #292a2c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.add {
+    &__input {
+        border: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 10px;
+        width: 75%;
+    }
+
+    &__button {
+        background-color: #292a2c;
+        border: 1px solid #fff;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        padding: 9.1px;
+        width: 20%;
+        margin-left: -1%;
+
+        &:hover {
+            background-color: darken($color: #292a2c, $amount: 5%);
+        }
+
+        &:focus {
+            background-color: darken($color: #292a2c, $amount: 10%);
+        }
+    }
+}
+
+h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+h4 {
+    margin: 5px 0;
+}
+
+.todo {
+    &__item {
+        align-items: center;
+        display: flex;
+
+        &-checkbox {
+            margin-right: 5%;
+        }
+
+        &-name {
+            width: 82%;
+            padding: 10.3px;
+            border: 1px solid brown;
+
+            &--completed {
+                border: 1px solid greenyellow;
+                text-decoration: line-through;
+            }
+        }
+
+        &-input {
+            background-color: #292a2c;
+            color: #fff;
+            padding: 11.4px;
+            margin: 5px 0;
+        }
+    }
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+
+    &__edit,
+    &__delete {
+        background-color: #292a2c;
+        border: 1px solid #fff;
+        cursor: pointer;
+        color: #fff;
+        font-size: 10px;
+        padding: 3px 10px;
+
+        &:hover {
+            background-color: darken($color: #292a2c, $amount: 5%);
+        }
+
+        &:focus {
+            background-color: darken($color: #292a2c, $amount: 10%);
+        }
+    }
+
+    &__edit {
+        border-top-right-radius: 5px;
+    }
+
+    &__delete {
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.hide {
+    display: none;
+}

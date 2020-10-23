@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>To-do</title>
+</head>
+
+<body>
+    <h1>TO DO LIST</h1>
+
+    <div class="add block">
+        <label for="add-item-input">
+            <h3>ADD ITEM</h3>
+        </label>
+        <input autofocus type="text" id="add-item-input" class="add__input">
+        <button id="add-item-btn" class="add__button">Add</button>
+    </div>
+
+    <div class="todo block">
+        <h3>TO DO</h3>
+        <div id="todo-content"></div>
+    </div>
+
+    <div class="completed block">
+        <h3>COMPLETED</h3>
+        <div id="completed-content"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

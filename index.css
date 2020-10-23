@@ -1,0 +1,127 @@
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #292a2c;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block {
+  margin-top: 30px;
+  width: 400px;
+}
+
+.add__input {
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  width: 75%;
+}
+
+.add__button {
+  background-color: #292a2c;
+  border: 1px solid #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  padding: 9.1px;
+  width: 20%;
+  margin-left: -1%;
+}
+
+.add__button:hover {
+  background-color: #1d1d1f;
+}
+
+.add__button:focus {
+  background-color: #101112;
+}
+
+h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+.todo__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todo__item-checkbox {
+  margin-right: 5%;
+}
+
+.todo__item-name {
+  width: 82%;
+  padding: 10.3px;
+  border: 1px solid brown;
+}
+
+.todo__item-name--completed {
+  border: 1px solid greenyellow;
+  text-decoration: line-through;
+}
+
+.todo__item-input {
+  background-color: #292a2c;
+  color: #fff;
+  padding: 11.4px;
+  margin: 5px 0;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.controls__edit, .controls__delete {
+  background-color: #292a2c;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #fff;
+  font-size: 10px;
+  padding: 3px 10px;
+}
+
+.controls__edit:hover, .controls__delete:hover {
+  background-color: #1d1d1f;
+}
+
+.controls__edit:focus, .controls__delete:focus {
+  background-color: #101112;
+}
+
+.controls__edit {
+  border-top-right-radius: 5px;
+}
+
+.controls__delete {
+  border-bottom-right-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */
